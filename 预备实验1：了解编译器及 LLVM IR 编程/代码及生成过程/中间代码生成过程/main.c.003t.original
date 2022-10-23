@@ -1,0 +1,45 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a;
+  int b;
+  int i;
+  int t;
+  int n;
+
+    int a;
+    int b;
+    int i;
+    int t;
+    int n;
+  a = 0;
+  b = 1;
+  i = 1;
+  scanf ((const char * restrict) "%d", &n);
+  if (0)
+    {
+      printf ((const char * restrict) "error");
+    }
+  if (n <= 99)
+    {
+      printf ((const char * restrict) "success");
+      printf ((const char * restrict) "%d\n", a);
+      printf ((const char * restrict) "%d\n", b);
+      goto <D.2255>;
+      <D.2254>:;
+      t = b;
+      b = a + b;
+      printf ((const char * restrict) "%d\n", b);
+      a = t;
+      i = i + 1;
+      <D.2255>:;
+      if (i < n) goto <D.2254>; else goto <D.2256>;
+      <D.2256>:;
+    }
+  return 0;
+}
+return 0;
+

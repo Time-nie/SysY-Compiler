@@ -1,0 +1,62 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=2247, cgraph_uid=0, symbol_order=0)
+
+Released 0 names, 0.00%, removed 0 holes
+main ()
+{
+  int n;
+  int t;
+  int i;
+  int b;
+  int a;
+  int D.2262;
+  int n.0_1;
+  int n.1_2;
+  int _21;
+
+  <bb 2> [0.00%]:
+  a_8 = 0;
+  b_9 = 1;
+  i_10 = 1;
+  scanf ("%d", &n);
+
+  <bb 3> [0.00%]:
+  n.0_1 = n;
+  if (n.0_1 <= 99)
+    goto <bb 4>; [0.00%]
+  else
+    goto <bb 7>; [0.00%]
+
+  <bb 4> [0.00%]:
+  printf ("success");
+  printf ("%d\n", a_8);
+  printf ("%d\n", b_9);
+  goto <bb 6>; [0.00%]
+
+  <bb 5> [0.00%]:
+  t_16 = b_4;
+  b_17 = a_3 + b_4;
+  printf ("%d\n", b_17);
+  a_19 = t_16;
+  i_20 = i_5 + 1;
+
+  <bb 6> [0.00%]:
+  # a_3 = PHI <a_8(4), a_19(5)>
+  # b_4 = PHI <b_9(4), b_17(5)>
+  # i_5 = PHI <i_10(4), i_20(5)>
+  n.1_2 = n;
+  if (i_5 < n.1_2)
+    goto <bb 5>; [0.00%]
+  else
+    goto <bb 7>; [0.00%]
+
+  <bb 7> [0.00%]:
+  _21 = 0;
+  n ={v} {CLOBBER};
+
+<L8> [0.00%]:
+  return _21;
+
+}
+
+
