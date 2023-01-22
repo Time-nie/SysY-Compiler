@@ -1,0 +1,383 @@
+install成功install成功install成功install成功install成功install成功install成功install成功install成功install成功install成功install成功过了yyparse
+完成语法树输出
+Ast::genCode
+SeqNode::genCode
+FunctionDef::genCode
+CompoundStmt::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+AssignStmt::genCode
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+AssignStmt::genCode
+IfElseStmt::genCode
+BinaryExpr::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t5,src_addr :%t33
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t7,src_addr :%t34
+CompoundStmt::genCode
+ReturnStmt::genCode
+Id::genCode
+LoadInstruction
+dst: %t10,src_addr :%t33
+CompoundStmt::genCode
+IfElseStmt::genCode
+BinaryExpr::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t11,src_addr :%t34
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t13,src_addr :%t33
+AssignStmt::genCode
+IfElseStmt::genCode
+BinaryExpr::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t17,src_addr :%t34
+BinaryExpr::genCode
+UnaryExpr::genCode
+ConstantSymbolEntry
+Id::genCode
+LoadInstruction
+dst: %t19,src_addr :%t33
+AssignStmt::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t24,src_addr :%t33
+AssignStmt::genCode
+UnaryExpr::genCode
+UnaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t27,src_addr :%t33
+TemporarySymbolEntry
+TemporarySymbolEntry
+ReturnStmt::genCode
+Id::genCode
+LoadInstruction
+dst: %t30,src_addr :%t33
+FunctionDef::genCode
+CompoundStmt::genCode
+SeqNode::genCode
+FuncCallExpr::genCode
+FuncCallExpr::genCode
+ReturnStmt::genCode
+完成中间代码生成
+Unit::genMachineCode
+BasicBlock::genMachineCode
+Function::genMachineCode
+BasicBlock::genMachineCode
+AllocaInstruction::genMachineCode
+1234567891012345678@b: 4: 32
+1234567891012345678@b: 4: 4offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@a: 4: 32
+1234567891012345678@a: 4: 8offset
+AllocaInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+StoreInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+StoreInstruction::genMachineCode-out
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+RetInstruction::genMachineCode
+RetInstruction::genMachineCode-out
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-4LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+RetInstruction::genMachineCode
+RetInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-4LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+StoreInstruction::genMachineCode-out
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-4LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+BinaryInstruction::genMachineCode
+ConstantSymbolEntry
+BinaryInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+StoreInstruction::genMachineCode-out
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+BinaryInstruction::genMachineCode
+ConstantSymbolEntry
+BinaryInstruction::genMachineCode-out
+BinaryInstruction::genMachineCode
+ConstantSymbolEntry
+BinaryInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+StoreInstruction::genMachineCode-out
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+UncondBrInstruction::genMachineCode
+UncondBrInstruction::genMachineCode-out
+BasicBlock::genMachineCode
+BinaryInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+BinaryInstruction::genMachineCode-out
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+CmpInstruction::genMachineCode-out
+CmpInstruction::genMachineCode
+ConstantSymbolEntry
+CmpInstruction::genMachineCode-out
+CondBrInstruction::genMachineCode
+CondBrInstruction::genMachineCode-out
+Function::genMachineCode
+BasicBlock::genMachineCode
+CallInstruction::genMachineCode
+CallInstruction::genMachineCode-out
+CallInstruction::genMachineCode
+CallInstruction::genMachineCode-out
+RetInstruction::genMachineCode
+ConstantSymbolEntry
+RetInstruction::genMachineCode-out
+完成目标代码生成
+完成初始化linearScan
+LinearScan::allocateRegisters()
+auto &f : unit->getFuncs(),f:@ifElseIf
+computeLiveIntervals in
+computeLiveIntervals out
+linearScanRegisterAllocation
+success 
+modifyCode
+auto &f : unit->getFuncs(),f:@main
+computeLiveIntervals in
+computeLiveIntervals out
+linearScanRegisterAllocation
+success 
+modifyCode
+完成寄存器分配
+MachineUnit:output 
+com to PrintGlobalDecl 
+进入1
+out from PrintGlobalDecl
+MachineFunction:output ,ifElseIf
+StackMInstrcuton::output
+MovMInstruction::output
+BinaryMInstruction::output
+MachineBlock::output, .L32:
+LoadMInstruction::output
+StoreMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L35:
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StackMInstrcuton::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L36:
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L37:
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StackMInstrcuton::output
+BranchMInstruction::output
+MachineBlock::output, .L41:
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L45:
+LoadMInstruction::output
+StoreMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L46:
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L47:
+BranchMInstruction::output
+MachineBlock::output, .L51:
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L55:
+LoadMInstruction::output
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L56:
+LoadMInstruction::output
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L57:
+BranchMInstruction::output
+MachineBlock::output, .L61:
+LoadMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineFunction:output ,main
+StackMInstrcuton::output
+MovMInstruction::output
+BinaryMInstruction::output
+MachineBlock::output, .L65:
+BranchMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BranchMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StackMInstrcuton::output
+BranchMInstruction::output
+完成目标代码输出
+TOTAL: 0H-0M-0S-0us

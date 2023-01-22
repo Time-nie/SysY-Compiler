@@ -1,0 +1,14 @@
+Ast::genCode
+FunctionDef::genCode
+CompoundStmt::genCode
+SeqNode::genCode
+DeclStmt::genCode
+FuncCallExpr::genCode
+ReturnStmt::genCode
+Id::genCode
+@a
+LoadInstruction
+dst: %t3,src_addr :%t5
+完成中间代码生成
+完成目标代码生成
+进入1
