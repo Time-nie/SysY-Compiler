@@ -1,0 +1,205 @@
+install成功install成功install成功install成功install成功install成功install成功install成功ConstantSymbolEntry
+install成功VarDef-ID ArrayIndices ASSIGN
+IdentifierSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+install成功install成功install成功install成功过了yyparse
+完成语法树输出
+Ast::genCode
+SeqNode::genCode
+SeqNode::genCode
+DeclStmt::genCode
+UnaryExpr::genCode
+ConstantSymbolEntry
+TemporarySymbolEntry
+DeclStmt::genCode
+FunctionDef::genCode
+CompoundStmt::genCode
+SeqNode::genCode
+SeqNode::genCode
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+444444444444444444else
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+444444444444444444else
+WhileStmt::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t11,src_addr :%t23
+CompoundStmt::genCode
+SeqNode::genCode
+AssignStmt::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t14,src_addr :%t24
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+6
+Id::genCode
+LoadInstruction
+dst: %t15,src_addr :%t23
+LoadInstruction
+dst: %t29,src_addr :%t16
+AssignStmt::genCode
+BinaryExpr::genCode
+Id::genCode
+LoadInstruction
+dst: %t19,src_addr :%t23
+ReturnStmt::genCode
+Id::genCode
+LoadInstruction
+dst: %t21,src_addr :%t24
+完成中间代码生成
+Unit::genMachineCode
+BasicBlock::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+Function::genMachineCode
+BasicBlock::genMachineCode
+AllocaInstruction::genMachineCode
+1234567891012345678@sum: 4: 32
+1234567891012345678@sum: 4: 4offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@i: 4: 32
+1234567891012345678@i: 4: 8offset
+AllocaInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-4LoadInstruction::genMachineCode-out
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+StoreInstruction::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-8LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+BasicBlock::genMachineCode
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode,isTemporary
+-4LoadInstruction::genMachineCode-out
+完成目标代码生成
+完成初始化linearScan
+LinearScan::allocateRegisters()
+auto &f : unit->getFuncs(),f:@main
+computeLiveIntervals in
+computeLiveIntervals out
+linearScanRegisterAllocation
+success 
+modifyCode
+完成寄存器分配
+MachineUnit:output 
+com to PrintGlobalDecl 
+进入1
+进入2
+进来了
+进入2
+进来了
+out from PrintGlobalDecl
+MachineFunction:output ,main
+StackMInstrcuton::output
+MovMInstruction::output
+BinaryMInstruction::output
+MachineBlock::output, .L22:
+LoadMInstruction::output
+StoreMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L25:
+LoadMInstruction::output
+LoadMInstruction::output
+CmpMInstruction::output
+BranchMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L26:
+LoadMInstruction::output
+LoadMInstruction::output
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+LoadMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+BranchMInstruction::output
+MachineBlock::output, .L27:
+LoadMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StackMInstrcuton::output
+BranchMInstruction::output
+GlobalMInstruction::output
+GlobalMInstruction::output
+完成目标代码输出

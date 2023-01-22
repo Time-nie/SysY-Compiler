@@ -1,0 +1,6 @@
+install成功install成功install成功install成功install成功install成功install成功install成功ConstantSymbolEntry
+install成功ConstantSymbolEntry
+install成功identifier "float" is undefined
+compiler: src/parser.y:111: int yyparse(): Assertion `se != nullptr' failed.
+timeout: the monitored command dumped core
+Aborted

@@ -1,0 +1,11 @@
+install成功install成功install成功install成功install成功install成功install成功install成功ConstantSymbolEntry
+install成功ConstantSymbolEntry
+install成功VarDef:ID ArrayIndices
+IdentifierSymbolEntry
+IdentifierSymbolEntry
+install成功install成功install成功syntax error
+过了yyparse
+完成语法树输出
+Ast::genCode
+timeout: the monitored command dumped core
+Segmentation fault

@@ -1,0 +1,982 @@
+install成功install成功install成功install成功install成功install成功install成功install成功install成功VarDef-ID ArrayIndices ASSIGN
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE RBRACE
+install成功VarDef-ID ArrayIndices ASSIGN
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+install成功VarDef-ID ArrayIndices ASSIGN
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+install成功VarDef-ID ArrayIndices ASSIGN
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+install成功VarDef-ID ArrayIndices ASSIGN
+ConstantSymbolEntry
+ConstantSymbolEntry
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+int[4][2]
+111111111111111111
+IdentifierSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+int[4][2]
+111111111111111111
+IdentifierSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitVal-LBRACE
+InitVal-LBRACE-out
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitVal
+InitVal-Exp IN
+i32
+111111111111111111
+ConstantSymbolEntry
+InitVal-Exp out
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+InitValList-InitValList COMMA InitVal
+InitValList RBRACE
+install成功过了yyparse
+完成语法树输出
+Ast::genCode
+FunctionDef::genCode
+CompoundStmt::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+SeqNode::genCode
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+44444444444444444444expr->isInitArr()
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+44444444444444444444expr->isInitArr()
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+44444444444444444444expr->isInitArr()
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+44444444444444444444expr->isInitArr()
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+DeclStmt::genCode
+44444444444444444se->isLocal() || se->isParam()
+44444444444444444expr != nullptr
+44444444444444444444expr->isInitArr()
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+4
+2
+LoadInstruction
+dst: %t100,src_addr :%t99
+44444444444444444444while
+44444444444444444444else
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+4
+2
+LoadInstruction
+dst: %t104,src_addr :%t103
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+ if (temp->isInitArr())
+44444444444444444444while
+44444444444444444444else
+44444444444444444444while
+44444444444444444444else
+ReturnStmt::genCode
+BinaryExpr::genCode
+BinaryExpr::genCode
+BinaryExpr::genCode
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+4
+2
+LoadInstruction
+dst: %t120,src_addr :%t119
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+4
+2
+LoadInstruction
+dst: %t122,src_addr :%t121
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+4
+2
+LoadInstruction
+dst: %t124,src_addr :%t123
+Id::genCode
+AAAAAAAAAAAAAAAAAAAAId::genCode->arrIdx
+5
+3
+LoadInstruction
+dst: %t126,src_addr :%t125
+完成中间代码生成
+Unit::genMachineCode
+BasicBlock::genMachineCode
+Function::genMachineCode
+BasicBlock::genMachineCode
+AllocaInstruction::genMachineCode
+1234567891012345678@e: 32: 256
+1234567891012345678@e: 32: 32offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@d: 32: 256
+1234567891012345678@d: 32: 64offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@c: 32: 256
+1234567891012345678@c: 32: 96offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@b: 32: 256
+1234567891012345678@b: 32: 128offset
+AllocaInstruction::genMachineCode-out
+AllocaInstruction::genMachineCode
+1234567891012345678@a: 60: 480
+1234567891012345678@a: 60: 188offset
+AllocaInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+StoreInstruction::genMachineCode
+ConstantSymbolEntry
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+ConstantSymbolEntry
+ConstantSymbolEntry
+LoadInstruction::genMachineCode
+LoadInstruction::genMachineCode-else
+LoadInstruction::genMachineCode-out
+完成目标代码生成
+完成初始化linearScan
+LinearScan::allocateRegisters()
+auto &f : unit->getFuncs(),f:@main
+computeLiveIntervals in
+computeLiveIntervals out
+linearScanRegisterAllocation
+success 
+modifyCode
+完成寄存器分配
+MachineUnit:output 
+com to PrintGlobalDecl 
+进入1
+out from PrintGlobalDecl
+MachineFunction:output ,main
+StackMInstrcuton::output
+MovMInstruction::output
+BinaryMInstruction::output
+MachineBlock::output, .L15:
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+StoreMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+BinaryMInstruction::output
+LoadMInstruction::output
+BinaryMInstruction::output
+MovMInstruction::output
+BinaryMInstruction::output
+StackMInstrcuton::output
+BranchMInstruction::output
+完成目标代码输出
