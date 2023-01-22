@@ -1,0 +1,33 @@
+program
+    DeclStmt
+        Id	name: a	scope: 0	type: int
+    DeclStmt
+        Id	name: b	scope: 0	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            AssignStmt
+                Id	name: a	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: b	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            DeclStmt
+                Id	name: c	scope: 2	type: int
+            IfElseStmt
+                BinaryExpr	op: and
+                    BinaryExpr	op: equal
+                        Id	name: a	scope: 0	type: int
+                        Id	name: b	scope: 0	type: int
+                    BinaryExpr	op: notequal
+                        Id	name: a	scope: 0	type: int
+                        IntegerLiteral	value: 3	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: c	scope: 2	type: int
+                        IntegerLiteral	value: 1	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: c	scope: 2	type: int
+                        IntegerLiteral	value: 0	type: int
+            ReturnStmt
+                Id	name: c	scope: 2	type: int

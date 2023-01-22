@@ -1,0 +1,33 @@
+program
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: i	scope: 2	type: int
+            DeclStmt
+                Id	name: sum	scope: 2	type: int
+            AssignStmt
+                Id	name: sum	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            AssignStmt
+                Id	name: i	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            WhileStmt
+                BinaryExpr	op: less
+                    Id	name: i	scope: 2	type: int
+                    IntegerLiteral	value: 21	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: sum	scope: 2	type: int
+                        BinaryExpr	op: add
+                            Id	name: sum	scope: 2	type: int
+                            Id	name: i	scope: 2	type: int
+                    AssignStmt
+                        Id	name: i	scope: 2	type: int
+                        BinaryExpr	op: add
+                            Id	name: i	scope: 2	type: int
+                            IntegerLiteral	value: 1	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: sum	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

@@ -1,0 +1,279 @@
+program
+    DeclStmt
+        Id	name: s	scope: 0	type: int
+        IntegerLiteral	value: 0	type: int
+    FunctionDefine function name: get_ans_se type: int(int, int, int)
+        DeclStmt
+            Id	name: ans	scope: 1	type: int
+        DeclStmt
+            Id	name: v0	scope: 1	type: int
+        DeclStmt
+            Id	name: v1	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: v	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            IfStmt
+                BinaryExpr	op: equal
+                    Id	name: v0	scope: 1	type: int
+                    Id	name: v1	scope: 1	type: int
+                AssignStmt
+                    Id	name: v	scope: 2	type: int
+                    IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: ans	scope: 1	type: int
+                BinaryExpr	op: mul
+                    Id	name: ans	scope: 1	type: int
+                    IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: ans	scope: 1	type: int
+                BinaryExpr	op: add
+                    Id	name: ans	scope: 1	type: int
+                    Id	name: v	scope: 2	type: int
+            AssignStmt
+                Id	name: s	scope: 0	type: int
+                BinaryExpr	op: add
+                    Id	name: s	scope: 0	type: int
+                    Id	name: ans	scope: 1	type: int
+            ReturnStmt
+                Id	name: ans	scope: 1	type: int
+    FunctionDefine function name: get_ans type: int(int, int, int)
+        DeclStmt
+            Id	name: ans	scope: 1	type: int
+        DeclStmt
+            Id	name: v0	scope: 1	type: int
+        DeclStmt
+            Id	name: v1	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: v	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            IfStmt
+                BinaryExpr	op: equal
+                    Id	name: v0	scope: 1	type: int
+                    Id	name: v1	scope: 1	type: int
+                AssignStmt
+                    Id	name: v	scope: 2	type: int
+                    IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: ans	scope: 1	type: int
+                BinaryExpr	op: mul
+                    Id	name: ans	scope: 1	type: int
+                    IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: ans	scope: 1	type: int
+                BinaryExpr	op: add
+                    Id	name: ans	scope: 1	type: int
+                    Id	name: v	scope: 2	type: int
+            ReturnStmt
+                Id	name: ans	scope: 1	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: k0	scope: 2	type: constant int
+                UnaryExpr	op: minus
+                    IntegerLiteral	value: -2147483648	type: int
+            DeclStmt
+                Id	name: k1	scope: 2	type: constant int
+                IntegerLiteral	value: -2147483648	type: int
+            DeclStmt
+                Id	name: k2	scope: 2	type: constant int
+                BinaryExpr	op: add
+                    IntegerLiteral	value: -2147483648	type: int
+                    IntegerLiteral	value: 1	type: int
+            DeclStmt
+                Id	name: k3	scope: 2	type: constant int
+                IntegerLiteral	value: 2147483647	type: int
+            DeclStmt
+                Id	name: k4	scope: 2	type: constant int
+                BinaryExpr	op: sub
+                    IntegerLiteral	value: 2147483647	type: int
+                    IntegerLiteral	value: 1	type: int
+            DeclStmt
+                Id	name: a1	scope: 2	type: int
+            DeclStmt
+                Id	name: a2	scope: 2	type: int
+            DeclStmt
+                Id	name: a3	scope: 2	type: int
+            DeclStmt
+                Id	name: a4	scope: 2	type: int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    IntegerLiteral	value: 0	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    Id	name: k1	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    BinaryExpr	op: add
+                        Id	name: k0	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+                    Id	name: k2	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    BinaryExpr	op: sub
+                        UnaryExpr	op: minus
+                            Id	name: k3	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    BinaryExpr	op: add
+                        Id	name: k4	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k1	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k2	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    Id	name: k1	scope: 2	type: constant int
+                    BinaryExpr	op: sub
+                        UnaryExpr	op: minus
+                            Id	name: k3	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a1	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a1	scope: 2	type: int
+                    Id	name: k1	scope: 2	type: constant int
+                    BinaryExpr	op: add
+                        Id	name: k4	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a2	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    IntegerLiteral	value: 0	type: int
+                    Id	name: k2	scope: 2	type: constant int
+                    Id	name: k3	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a2	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a2	scope: 2	type: int
+                    Id	name: k2	scope: 2	type: constant int
+                    Id	name: k4	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a2	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a2	scope: 2	type: int
+                    Id	name: k3	scope: 2	type: constant int
+                    Id	name: k4	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a2	scope: 2	type: int
+                FuncCallExpr	function name: get_ans	scope: 0	type: int(int, int, int)
+                    Id	name: a2	scope: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k0	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k1	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    IntegerLiteral	value: 0	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    Id	name: k1	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    BinaryExpr	op: add
+                        Id	name: k0	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+                    Id	name: k2	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    BinaryExpr	op: sub
+                        UnaryExpr	op: minus
+                            Id	name: k3	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    Id	name: k0	scope: 2	type: constant int
+                    BinaryExpr	op: add
+                        Id	name: k4	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k1	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k2	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    Id	name: k1	scope: 2	type: constant int
+                    BinaryExpr	op: sub
+                        UnaryExpr	op: minus
+                            Id	name: k3	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a3	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a3	scope: 2	type: int
+                    Id	name: k1	scope: 2	type: constant int
+                    BinaryExpr	op: add
+                        Id	name: k4	scope: 2	type: constant int
+                        IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: a4	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    IntegerLiteral	value: 0	type: int
+                    Id	name: k2	scope: 2	type: constant int
+                    Id	name: k3	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a4	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a4	scope: 2	type: int
+                    Id	name: k2	scope: 2	type: constant int
+                    Id	name: k4	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a4	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a4	scope: 2	type: int
+                    Id	name: k3	scope: 2	type: constant int
+                    Id	name: k4	scope: 2	type: constant int
+            AssignStmt
+                Id	name: a4	scope: 2	type: int
+                FuncCallExpr	function name: get_ans_se	scope: 0	type: int(int, int, int)
+                    Id	name: a4	scope: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k0	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+                    BinaryExpr	op: div
+                        Id	name: k1	scope: 2	type: constant int
+                        IntegerLiteral	value: 2	type: int
+            ReturnStmt
+                BinaryExpr	op: add
+                    BinaryExpr	op: add
+                        BinaryExpr	op: add
+                            Id	name: a1	scope: 2	type: int
+                            Id	name: a2	scope: 2	type: int
+                        Id	name: a3	scope: 2	type: int
+                    Id	name: a4	scope: 2	type: int

@@ -1,0 +1,69 @@
+program
+    DeclStmt
+        Id	name: a	scope: 0	type: int
+    DeclStmt
+        Id	name: b	scope: 0	type: int
+    DeclStmt
+        Id	name: c	scope: 0	type: int
+    DeclStmt
+        Id	name: d	scope: 0	type: int
+    DeclStmt
+        Id	name: e	scope: 0	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            AssignStmt
+                Id	name: a	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: b	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: c	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: d	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: e	scope: 0	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            DeclStmt
+                Id	name: flag	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            IfStmt
+                BinaryExpr	op: or
+                    BinaryExpr	op: or
+                        BinaryExpr	op: notequal
+                            BinaryExpr	op: sub
+                                Id	name: a	scope: 0	type: int
+                                BinaryExpr	op: mul
+                                    Id	name: b	scope: 0	type: int
+                                    Id	name: c	scope: 0	type: int
+                            BinaryExpr	op: sub
+                                Id	name: d	scope: 0	type: int
+                                BinaryExpr	op: div
+                                    Id	name: a	scope: 0	type: int
+                                    Id	name: c	scope: 0	type: int
+                        BinaryExpr	op: equal
+                            BinaryExpr	op: div
+                                BinaryExpr	op: mul
+                                    Id	name: a	scope: 0	type: int
+                                    Id	name: b	scope: 0	type: int
+                                Id	name: c	scope: 0	type: int
+                            BinaryExpr	op: add
+                                Id	name: e	scope: 0	type: int
+                                Id	name: d	scope: 0	type: int
+                    BinaryExpr	op: equal
+                        BinaryExpr	op: add
+                            BinaryExpr	op: add
+                                Id	name: a	scope: 0	type: int
+                                Id	name: b	scope: 0	type: int
+                            Id	name: c	scope: 0	type: int
+                        BinaryExpr	op: add
+                            Id	name: d	scope: 0	type: int
+                            Id	name: e	scope: 0	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: flag	scope: 2	type: int
+                        IntegerLiteral	value: 1	type: int
+            ReturnStmt
+                Id	name: flag	scope: 2	type: int

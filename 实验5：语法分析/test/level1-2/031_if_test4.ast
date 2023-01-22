@@ -1,0 +1,36 @@
+program
+    FunctionDefine function name: if_ifElse_ type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 5	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: int
+            AssignStmt
+                Id	name: b	scope: 2	type: int
+                IntegerLiteral	value: 10	type: int
+            IfStmt
+                BinaryExpr	op: equal
+                    Id	name: a	scope: 2	type: int
+                    IntegerLiteral	value: 5	type: int
+                CompoundStmt
+                    IfElseStmt
+                        BinaryExpr	op: equal
+                            Id	name: b	scope: 2	type: int
+                            IntegerLiteral	value: 10	type: int
+                        AssignStmt
+                            Id	name: a	scope: 2	type: int
+                            IntegerLiteral	value: 25	type: int
+                        AssignStmt
+                            Id	name: a	scope: 2	type: int
+                            BinaryExpr	op: add
+                                Id	name: a	scope: 2	type: int
+                                IntegerLiteral	value: 15	type: int
+            ReturnStmt
+                Id	name: a	scope: 2	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            ReturnStmt
+                FuncCallExpr	function name: if_ifElse_	scope: 0	type: int()

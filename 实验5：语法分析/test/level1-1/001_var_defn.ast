@@ -1,0 +1,13 @@
+program
+    DeclStmt
+        Id	name: a	scope: 0	type: int
+        IntegerLiteral	value: 3	type: int
+    DeclStmt
+        Id	name: b	scope: 0	type: int
+        IntegerLiteral	value: 5	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            ReturnStmt
+                BinaryExpr	op: add
+                    Id	name: a	scope: 0	type: int
+                    Id	name: b	scope: 0	type: int

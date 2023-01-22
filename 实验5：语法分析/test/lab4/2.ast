@@ -1,0 +1,14 @@
+program
+    DeclStmt
+        Id	name: a	scope: 0	type: int
+    DeclStmt
+        Id	name: b	scope: 0	type: int
+    FunctionDefine function name: f type: void(int)
+        DeclStmt
+            Id	name: c	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: d	scope: 2	type: int
+            CompoundStmt
+                DeclStmt
+                    Id	name: e	scope: 3	type: int

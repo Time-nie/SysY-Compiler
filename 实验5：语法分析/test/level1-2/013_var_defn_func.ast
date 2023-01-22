@@ -1,0 +1,12 @@
+program
+    FunctionDefine function name: defn type: int()
+        CompoundStmt
+            ReturnStmt
+                IntegerLiteral	value: 4	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+                FuncCallExpr	function name: defn	scope: 0	type: int()
+            ReturnStmt
+                Id	name: a	scope: 2	type: int

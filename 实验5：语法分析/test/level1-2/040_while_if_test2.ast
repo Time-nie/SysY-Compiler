@@ -1,0 +1,54 @@
+program
+    FunctionDefine function name: ifWhile type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: int
+            AssignStmt
+                Id	name: b	scope: 2	type: int
+                IntegerLiteral	value: 3	type: int
+            IfElseStmt
+                BinaryExpr	op: equal
+                    Id	name: a	scope: 2	type: int
+                    IntegerLiteral	value: 5	type: int
+                CompoundStmt
+                    WhileStmt
+                        BinaryExpr	op: equal
+                            Id	name: b	scope: 2	type: int
+                            IntegerLiteral	value: 2	type: int
+                        CompoundStmt
+                            AssignStmt
+                                Id	name: b	scope: 2	type: int
+                                BinaryExpr	op: add
+                                    Id	name: b	scope: 2	type: int
+                                    IntegerLiteral	value: 2	type: int
+                    AssignStmt
+                        Id	name: b	scope: 2	type: int
+                        BinaryExpr	op: add
+                            Id	name: b	scope: 2	type: int
+                            IntegerLiteral	value: 25	type: int
+                WhileStmt
+                    BinaryExpr	op: less
+                        Id	name: a	scope: 2	type: int
+                        IntegerLiteral	value: 5	type: int
+                    CompoundStmt
+                        AssignStmt
+                            Id	name: b	scope: 2	type: int
+                            BinaryExpr	op: mul
+                                Id	name: b	scope: 2	type: int
+                                IntegerLiteral	value: 2	type: int
+                        AssignStmt
+                            Id	name: a	scope: 2	type: int
+                            BinaryExpr	op: add
+                                Id	name: a	scope: 2	type: int
+                                IntegerLiteral	value: 1	type: int
+            ReturnStmt
+                Id	name: b	scope: 2	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            ReturnStmt
+                FuncCallExpr	function name: ifWhile	scope: 0	type: int()

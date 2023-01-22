@@ -1,0 +1,80 @@
+program
+    DeclStmt
+        Id	name: n	scope: 0	type: int
+    FunctionDefine function name: gcd type: int(int, int)
+        DeclStmt
+            Id	name: m	scope: 1	type: int
+        DeclStmt
+            Id	name: n	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                Id	name: m	scope: 1	type: int
+            AssignStmt
+                Id	name: b	scope: 2	type: int
+                Id	name: n	scope: 1	type: int
+            DeclStmt
+                Id	name: t	scope: 2	type: int
+            DeclStmt
+                Id	name: r	scope: 2	type: int
+            IfStmt
+                BinaryExpr	op: less
+                    Id	name: m	scope: 1	type: int
+                    Id	name: n	scope: 1	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: t	scope: 2	type: int
+                        Id	name: m	scope: 1	type: int
+                    AssignStmt
+                        Id	name: m	scope: 1	type: int
+                        Id	name: n	scope: 1	type: int
+                    AssignStmt
+                        Id	name: n	scope: 1	type: int
+                        Id	name: t	scope: 2	type: int
+            AssignStmt
+                Id	name: r	scope: 2	type: int
+                BinaryExpr	op: mod
+                    Id	name: m	scope: 1	type: int
+                    Id	name: n	scope: 1	type: int
+            WhileStmt
+                BinaryExpr	op: notequal
+                    Id	name: r	scope: 2	type: int
+                    IntegerLiteral	value: 0	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: m	scope: 1	type: int
+                        Id	name: n	scope: 1	type: int
+                    AssignStmt
+                        Id	name: n	scope: 1	type: int
+                        Id	name: r	scope: 2	type: int
+                    AssignStmt
+                        Id	name: r	scope: 2	type: int
+                        BinaryExpr	op: mod
+                            Id	name: m	scope: 1	type: int
+                            Id	name: n	scope: 1	type: int
+            ReturnStmt
+                BinaryExpr	op: div
+                    BinaryExpr	op: mul
+                        Id	name: a	scope: 2	type: int
+                        Id	name: b	scope: 2	type: int
+                    Id	name: n	scope: 1	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: i	scope: 2	type: int
+            DeclStmt
+                Id	name: m	scope: 2	type: int
+            AssignStmt
+                Id	name: i	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: m	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            ReturnStmt
+                FuncCallExpr	function name: gcd	scope: 0	type: int(int, int)
+                    Id	name: i	scope: 2	type: int
+                    Id	name: m	scope: 2	type: int

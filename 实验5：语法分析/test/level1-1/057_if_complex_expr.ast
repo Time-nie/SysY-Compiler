@@ -1,0 +1,86 @@
+program
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: int
+            DeclStmt
+                Id	name: c	scope: 2	type: int
+            DeclStmt
+                Id	name: d	scope: 2	type: int
+            DeclStmt
+                Id	name: result	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 5	type: int
+            AssignStmt
+                Id	name: b	scope: 2	type: int
+                IntegerLiteral	value: 5	type: int
+            AssignStmt
+                Id	name: c	scope: 2	type: int
+                IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: d	scope: 2	type: int
+                UnaryExpr	op: minus
+                    IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: result	scope: 2	type: int
+                IntegerLiteral	value: 2	type: int
+            IfStmt
+                BinaryExpr	op: or
+                    BinaryExpr	op: less
+                        BinaryExpr	op: div
+                            BinaryExpr	op: mul
+                                Id	name: d	scope: 2	type: int
+                                IntegerLiteral	value: 1	type: int
+                            IntegerLiteral	value: 2	type: int
+                        IntegerLiteral	value: 0	type: int
+                    BinaryExpr	op: and
+                        BinaryExpr	op: notequal
+                            BinaryExpr	op: sub
+                                Id	name: a	scope: 2	type: int
+                                Id	name: b	scope: 2	type: int
+                            IntegerLiteral	value: 0	type: int
+                        BinaryExpr	op: notequal
+                            BinaryExpr	op: mod
+                                BinaryExpr	op: add
+                                    Id	name: c	scope: 2	type: int
+                                    IntegerLiteral	value: 3	type: int
+                                IntegerLiteral	value: 2	type: int
+                            IntegerLiteral	value: 0	type: int
+                CompoundStmt
+                    ExprStmt
+                        FuncCallExpr	function name: putint	scope: 0	type: void()
+                            Id	name: result	scope: 2	type: int
+            IfStmt
+                BinaryExpr	op: or
+                    BinaryExpr	op: less
+                        BinaryExpr	op: add
+                            BinaryExpr	op: mod
+                                Id	name: d	scope: 2	type: int
+                                IntegerLiteral	value: 2	type: int
+                            IntegerLiteral	value: 67	type: int
+                        IntegerLiteral	value: 0	type: int
+                    BinaryExpr	op: and
+                        BinaryExpr	op: notequal
+                            BinaryExpr	op: sub
+                                Id	name: a	scope: 2	type: int
+                                Id	name: b	scope: 2	type: int
+                            IntegerLiteral	value: 0	type: int
+                        BinaryExpr	op: notequal
+                            BinaryExpr	op: mod
+                                BinaryExpr	op: add
+                                    Id	name: c	scope: 2	type: int
+                                    IntegerLiteral	value: 2	type: int
+                                IntegerLiteral	value: 2	type: int
+                            IntegerLiteral	value: 0	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: result	scope: 2	type: int
+                        IntegerLiteral	value: 4	type: int
+                    ExprStmt
+                        FuncCallExpr	function name: putint	scope: 0	type: void()
+                            Id	name: result	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

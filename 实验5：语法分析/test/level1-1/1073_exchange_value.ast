@@ -1,0 +1,46 @@
+program
+    DeclStmt
+        Id	name: n	scope: 0	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: i	scope: 2	type: int
+            DeclStmt
+                Id	name: j	scope: 2	type: int
+            AssignStmt
+                Id	name: i	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: j	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            DeclStmt
+                Id	name: temp	scope: 2	type: int
+            AssignStmt
+                Id	name: temp	scope: 2	type: int
+                Id	name: i	scope: 2	type: int
+            AssignStmt
+                Id	name: i	scope: 2	type: int
+                Id	name: j	scope: 2	type: int
+            AssignStmt
+                Id	name: j	scope: 2	type: int
+                Id	name: temp	scope: 2	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: i	scope: 2	type: int
+            AssignStmt
+                Id	name: temp	scope: 2	type: int
+                IntegerLiteral	value: 10	type: int
+            ExprStmt
+                FuncCallExpr	function name: putch	scope: 0	type: void()
+                    Id	name: temp	scope: 2	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: j	scope: 2	type: int
+            AssignStmt
+                Id	name: temp	scope: 2	type: int
+                IntegerLiteral	value: 10	type: int
+            ExprStmt
+                FuncCallExpr	function name: putch	scope: 0	type: void()
+                    Id	name: temp	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

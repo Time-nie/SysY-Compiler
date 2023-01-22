@@ -1,0 +1,22 @@
+program
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            DeclStmt
+                Id	name: b0	scope: 2	type: int
+            DeclStmt
+                Id	name: _c	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: b0	scope: 2	type: int
+                IntegerLiteral	value: 2	type: int
+            AssignStmt
+                Id	name: _c	scope: 2	type: int
+                IntegerLiteral	value: 3	type: int
+            ReturnStmt
+                BinaryExpr	op: add
+                    Id	name: b0	scope: 2	type: int
+                    Id	name: _c	scope: 2	type: int

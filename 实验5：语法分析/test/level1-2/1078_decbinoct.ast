@@ -1,0 +1,75 @@
+program
+    FunctionDefine function name: dec2bin type: int(int)
+        DeclStmt
+            Id	name: a	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: res	scope: 2	type: int
+            DeclStmt
+                Id	name: k	scope: 2	type: int
+            DeclStmt
+                Id	name: i	scope: 2	type: int
+            DeclStmt
+                Id	name: temp	scope: 2	type: int
+            AssignStmt
+                Id	name: res	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            AssignStmt
+                Id	name: k	scope: 2	type: int
+                IntegerLiteral	value: 1	type: int
+            AssignStmt
+                Id	name: temp	scope: 2	type: int
+                Id	name: a	scope: 1	type: int
+            WhileStmt
+                BinaryExpr	op: notequal
+                    Id	name: temp	scope: 2	type: int
+                    IntegerLiteral	value: 0	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: i	scope: 2	type: int
+                        BinaryExpr	op: mod
+                            Id	name: temp	scope: 2	type: int
+                            IntegerLiteral	value: 2	type: int
+                    AssignStmt
+                        Id	name: res	scope: 2	type: int
+                        BinaryExpr	op: add
+                            BinaryExpr	op: mul
+                                Id	name: k	scope: 2	type: int
+                                Id	name: i	scope: 2	type: int
+                            Id	name: res	scope: 2	type: int
+                    AssignStmt
+                        Id	name: k	scope: 2	type: int
+                        BinaryExpr	op: mul
+                            Id	name: k	scope: 2	type: int
+                            IntegerLiteral	value: 10	type: int
+                    AssignStmt
+                        Id	name: temp	scope: 2	type: int
+                        BinaryExpr	op: div
+                            Id	name: temp	scope: 2	type: int
+                            IntegerLiteral	value: 2	type: int
+            ReturnStmt
+                Id	name: res	scope: 2	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 400	type: int
+            DeclStmt
+                Id	name: res	scope: 2	type: int
+            AssignStmt
+                Id	name: res	scope: 2	type: int
+                FuncCallExpr	function name: dec2bin	scope: 0	type: int(int)
+                    Id	name: a	scope: 2	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: res	scope: 2	type: int
+            AssignStmt
+                Id	name: res	scope: 2	type: int
+                IntegerLiteral	value: 10	type: int
+            ExprStmt
+                FuncCallExpr	function name: putch	scope: 0	type: void()
+                    Id	name: res	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

@@ -1,0 +1,48 @@
+program
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                IntegerLiteral	value: 56	type: int
+            AssignStmt
+                Id	name: b	scope: 2	type: int
+                IntegerLiteral	value: 4	type: int
+            AssignStmt
+                Id	name: a	scope: 2	type: int
+                BinaryExpr	op: add
+                    BinaryExpr	op: sub
+                        Id	name: a	scope: 2	type: int
+                        UnaryExpr	op: minus
+                            IntegerLiteral	value: 4	type: int
+                    UnaryExpr	op: add
+                        Id	name: b	scope: 2	type: int
+            IfElseStmt
+                UnaryExpr	op: add
+                    UnaryExpr	op: minus
+                        UnaryExpr	op: not
+                            UnaryExpr	op: not
+                                UnaryExpr	op: not
+                                    Id	name: a	scope: 2	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: a	scope: 2	type: int
+                        UnaryExpr	op: minus
+                            UnaryExpr	op: minus
+                                UnaryExpr	op: minus
+                                    IntegerLiteral	value: 1	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: a	scope: 2	type: int
+                        BinaryExpr	op: add
+                            IntegerLiteral	value: 0	type: int
+                            UnaryExpr	op: add
+                                Id	name: b	scope: 2	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: a	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

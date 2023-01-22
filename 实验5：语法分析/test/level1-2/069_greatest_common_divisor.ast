@@ -1,0 +1,51 @@
+program
+    FunctionDefine function name: fun type: int(int, int)
+        DeclStmt
+            Id	name: m	scope: 1	type: int
+        DeclStmt
+            Id	name: n	scope: 1	type: int
+        CompoundStmt
+            DeclStmt
+                Id	name: rem	scope: 2	type: int
+            WhileStmt
+                BinaryExpr	op: greater
+                    Id	name: n	scope: 1	type: int
+                    IntegerLiteral	value: 0	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: rem	scope: 2	type: int
+                        BinaryExpr	op: mod
+                            Id	name: m	scope: 1	type: int
+                            Id	name: n	scope: 1	type: int
+                    AssignStmt
+                        Id	name: m	scope: 1	type: int
+                        Id	name: n	scope: 1	type: int
+                    AssignStmt
+                        Id	name: n	scope: 1	type: int
+                        Id	name: rem	scope: 2	type: int
+            ReturnStmt
+                Id	name: m	scope: 1	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: n	scope: 2	type: int
+            DeclStmt
+                Id	name: m	scope: 2	type: int
+            DeclStmt
+                Id	name: num	scope: 2	type: int
+            AssignStmt
+                Id	name: m	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: n	scope: 2	type: int
+                FuncCallExpr	function name: getint	scope: 0	type: int()
+            AssignStmt
+                Id	name: num	scope: 2	type: int
+                FuncCallExpr	function name: fun	scope: 0	type: int(int, int)
+                    Id	name: m	scope: 2	type: int
+                    Id	name: n	scope: 2	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: num	scope: 2	type: int
+            ReturnStmt
+                IntegerLiteral	value: 0	type: int

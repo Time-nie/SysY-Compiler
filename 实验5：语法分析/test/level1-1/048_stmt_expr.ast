@@ -1,0 +1,40 @@
+program
+    DeclStmt
+        Id	name: k	scope: 0	type: int
+    DeclStmt
+        Id	name: n	scope: 0	type: constant int
+        IntegerLiteral	value: 10	type: int
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: i	scope: 2	type: int
+                IntegerLiteral	value: 0	type: int
+            AssignStmt
+                Id	name: k	scope: 0	type: int
+                IntegerLiteral	value: 1	type: int
+            WhileStmt
+                BinaryExpr	op: lessequal
+                    Id	name: i	scope: 2	type: int
+                    BinaryExpr	op: sub
+                        Id	name: n	scope: 0	type: constant int
+                        IntegerLiteral	value: 1	type: int
+                CompoundStmt
+                    AssignStmt
+                        Id	name: i	scope: 2	type: int
+                        BinaryExpr	op: add
+                            Id	name: i	scope: 2	type: int
+                            IntegerLiteral	value: 1	type: int
+                    ExprStmt
+                        BinaryExpr	op: add
+                            Id	name: k	scope: 0	type: int
+                            IntegerLiteral	value: 1	type: int
+                    AssignStmt
+                        Id	name: k	scope: 0	type: int
+                        BinaryExpr	op: add
+                            Id	name: k	scope: 0	type: int
+                            Id	name: k	scope: 0	type: int
+            ExprStmt
+                FuncCallExpr	function name: putint	scope: 0	type: void()
+                    Id	name: k	scope: 0	type: int
+            ReturnStmt
+                Id	name: k	scope: 0	type: int

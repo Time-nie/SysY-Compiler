@@ -1,0 +1,11 @@
+program
+    FunctionDefine function name: main type: int()
+        CompoundStmt
+            DeclStmt
+                Id	name: a	scope: 2	type: constant int
+                IntegerLiteral	value: 10	type: int
+            DeclStmt
+                Id	name: b	scope: 2	type: constant int
+                IntegerLiteral	value: 5	type: int
+            ReturnStmt
+                Id	name: b	scope: 2	type: constant int
